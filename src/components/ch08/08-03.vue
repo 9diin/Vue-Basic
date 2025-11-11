@@ -11,7 +11,7 @@
 import { ref, reactive } from "vue";
 
 /** 원시 자료형 데이터 타입 사용 */
-const book = ref("이지스퍼블리싱 DO-iT Vue.js");
+const book = ref("이지스퍼블리싱 Do it! Vue.js");
 
 /** 참조 자료형 데이터 타입 사용 */
 const user = ref({
@@ -19,7 +19,7 @@ const user = ref({
     age: 32,
 });
 
-console.log(book.value); // 이지스퍼블리싱 DO-iT Vue.js
+console.log(book.value); // 이지스퍼블리싱 Do it! Vue.js
 console.log(user.value); // { name: "9Diin", age: 32 }
 console.log(user.value.name); // 9Diin
 console.log(user.value.age); // 32

@@ -7,7 +7,7 @@ import { reactive, defineExpose } from "vue";
 
 const user = reactive({
     name: "9Diin",
-    book: "DO-iT Vue.js",
+    book: "Do it! Vue.js",
     job: "Programmer",
 });
 
